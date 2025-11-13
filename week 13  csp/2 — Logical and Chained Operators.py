@@ -18,8 +18,7 @@ print(x < 5 or x == 10)   # True
 print(not(x == 10))       # False
 print(1 < x < 20)         # True
 
-
-# Practice Problems:
+ 
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
 
