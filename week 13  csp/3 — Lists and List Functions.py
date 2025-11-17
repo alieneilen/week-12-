@@ -57,9 +57,47 @@ list_of_fruits.sort() #sorts the list to ascending order
 print(list_of_fruits)
 #why use lists and not variable?
 #imagine you have 100 items to manage
+
 list_of_items = list(range(1, 101)) #creates a list of numbers
 print (list_of_items)
 print(len(list_of_items))
+
+#why use a list
+    #instead of creating seperate variables
+    #for each item, we can store them in a list
+    #this mades our job easier
+    #this makes managing the complexity of our code easier
+    #when we need to manage multiple items
+    #PERFORMANCE TASK ANSWER 
+
+#ets and typles
+#sets and typles are also part of the collections
+#family in python
+set1 = {1, 2, 3, 4, 5}
+set2 = {"apple", "banana", "cherry"}
+print (set1)
+print (set2)
+print (type(set1))
+
+#why use sets instead of lists?
+#sets automaticlaly handle du[licate items
+#examples
+
+set_with_duplicates = {1, 2, 3, 4, 5}
+print (set_with_duplicates)
+#sets are useful for membership testing
+print(3 in set1)
+print (6 in set1)
+#tuples examples:
+tuple1 = (1, 2, 3, 4, 5)
+tuple2 = ("apple", "banana", "cherry", )
+print (tuple1)
+print(tuple2)
+print (type(tuple1))
+#why use tuples instead of lists?
+# tuples are immmutable, meaning they cannot be changed after creation. this makes useful for storing data that should no be modified
+#examples:
+social_security_number = (123444, 4444445, 5676789)
 
 
 
